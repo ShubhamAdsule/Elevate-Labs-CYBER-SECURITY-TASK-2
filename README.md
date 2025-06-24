@@ -23,23 +23,30 @@ Analyze a phishing email sample and identify suspicious traits using header anal
 - Added full body in: `phishing_email_sample.txt`
 
 ## Sample Email 
-      From: Morgan Stanley Careers <careers@morganstanley-careers.com>
-      To: you@example.com
-      Subject: Job Opportunity - Work From Home
-      
-      Hello,
-      
-      Morgan Stanley is hiring remote positions! We are seeking part-time assistants to work from home with flexible hours and excellent compensation.
-      
-      No prior experience is required. Simply fill out the attached form and submit it to get started.
-      
-      APPLY NOW: http://morganstanley-careers.com/application
-      
-      Best regards,  
-      Morgan Stanley HR Team
-      
-      Attachment: Job_Application_Form.doc
-   
+            From: Talent Acquisition <talent-acquisition@cloud-notification-services[.]com>
+            To: john[.]doe@mybusiness[.]com
+            Subject: $300k+ Package Job Opportunity
+            
+            Dear John Doe,
+            
+            Our company is hiring for a sales position, it's a $300K opportunity.
+            
+            Ideal candidate must be responsible for:
+            1. Resolving sellers issues, questions, concerns with effective, clear and professional written and oral communication.
+            2. Building platform and business knowledge to better serve sellers.
+            3. Demonstrating excellent time-management skills and the ability to work independently.
+            4. Contributing to a positive team environment.
+            
+            Please fill the attached form. If this offer isn't a good fit for you, feel free to refer a friend! Or someone you know is looking for an exciting new             career opportunity.
+            
+              Learn more on the attached document.
+            
+            Thanks!  
+              The Human Resources Team
+            
+            Attachment: CanIPhish-Word-Attachment.docx
+            
+               
 
 ---
 
