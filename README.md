@@ -66,50 +66,64 @@ Details in: `phishing_indicators.md`
 
 ## File Contents
 
-      # Phishing Indicators 
-      
-      This document lists the suspicious traits found in the sample phishing email titled "Job Opportunity – Work From Home".
-      
-      ---
-      
-      ## 📌 Key Red Flags Identified:
-      
-      ### 1. **Suspicious Sender Domain**
-      - **From:** careers@morganstanley-careers.com
-      - ✅ *Morgan Stanley's official domain is* `morganstanley.com`
-      - 🚩 Use of lookalike domain is a classic phishing trick
-      
-      ---
-      
-      ### 2. **Incorrect Grammar**
-      - **"Morgan Stanley is hiring remote positions"**
-      - 🔁 Should be: "Morgan Stanley is hiring for remote positions"
-      - 🧠 Small but unprofessional — often a red flag
-      
-      ---
-      
-      ### 3. **Overly Generic & Vague Content**
-      - No job title, department, or contact information
-      - Lacks proper email signature or company formatting
-      
-      ---
-      
-      ### 4. **Aggressive Call to Action**
-      - “APPLY NOW” in ALL CAPS
-      - Links to a suspicious domain: `http://morganstanley-careers.com/application`
-      - ✅ Hovering over the link would show a mismatch (typical in phishing)
-      
-      ---
-      
-      ### 5. **Fake Attachment**
-      - Mentions an attached file: `Job_Application_Form.doc`
-      - Could contain malware or be used for credential harvesting
-      
-      ---
-      
-      ## ✅ Summary:
-      
-      This email is a clear phishing attempt. It uses urgency, fake branding, poor grammar, suspicious links, and a generic tone to trick users into engaging with malicious content.
+     # Phishing Indicators 
+
+This document lists the suspicious traits found in the sample phishing email titled **"$300K+ Package Job Opportunity"**.
+
+---
+
+## 📌 Key Red Flags Identified:
+
+### 1. **Suspicious Sender Domain**
+- **From:** talent-acquisition@cloud-notification-services[.]com
+- 🚩 This is not related to any real hiring or corporate domain
+- ✅ Real HR emails come from company-owned domains
+
+---
+
+### 2. **Personalization Failure**
+- Generic greeting: **"Dear John Doe"**
+- 🚩 Real job emails use your actual name, and have verified contacts
+
+---
+
+### 3. **Unrealistic Offer**
+- "$300K+ for a sales role" with no experience required
+- 🚩 Unrealistic compensation is a psychological lure
+
+---
+
+### 4. **Urgency + CTA (Call to Action)**
+- Bold phrases like **"fill the attached form"**
+- Encourages quick action without thinking
+- 🚩 Common tactic in phishing and scam emails
+
+---
+
+### 5. **Suspicious Attachment**
+- `CanIPhish-Word-Attachment.docx`
+- 🚩 Could contain malware or a malicious macro script
+
+---
+
+### 6. **Overly Polished but Generic Style**
+- Tries to look professional but lacks:
+  - Signature block
+  - Company branding
+  - Contact info
+- 🚩 Looks fake under close inspection
+
+---
+
+## ✅ Summary:
+
+This email demonstrates multiple phishing characteristics:
+- Fake sender domain
+- Urgent tone
+- Vague & high-paying job offer
+- Suspicious attachment
+
+It’s designed to trick users into downloading malware or providing sensitive info. This kind of email should be **flagged and reported immediately**.
 
 
 ---
