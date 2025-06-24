@@ -48,6 +48,9 @@ Analyze a phishing email sample and identify suspicious traits using header anal
             
 ## Screenshot
 
+![image](https://github.com/user-attachments/assets/fdb1b9a5-8614-4848-ad90-21b857d3efdf)
+
+
   
 
 ---
