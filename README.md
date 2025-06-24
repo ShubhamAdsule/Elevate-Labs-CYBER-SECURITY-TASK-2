@@ -22,6 +22,10 @@ Analyze a phishing email sample and identify suspicious traits using header anal
 - Source: [CanIPhish – Job Opportunity Phishing Sample](https://caniphish.com/email-phishing-simulator?email=Job-Opportunity)
 - Added full body in: `phishing_email_sample.txt`
 
+## Sample Email 
+
+   
+
 ---
 
 ### 2. Analyzed Red Flags in the Email
@@ -68,4 +72,3 @@ Details in: `header_analysis.txt`
 
 ---
 
-📌 [Submission Link](https://forms.gle/8Gm83s53KbyXs3Ne9)
