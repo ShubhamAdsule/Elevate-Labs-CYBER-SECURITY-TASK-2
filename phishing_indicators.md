@@ -1,4 +1,4 @@
-# Phishing Indicators – Task 2
+# Phishing Indicators 
 
 This document lists the suspicious traits found in the sample phishing email titled "Job Opportunity – Work From Home".
 
