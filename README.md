@@ -23,7 +23,22 @@ Analyze a phishing email sample and identify suspicious traits using header anal
 - Added full body in: `phishing_email_sample.txt`
 
 ## Sample Email 
-
+      From: Morgan Stanley Careers <careers@morganstanley-careers.com>
+      To: you@example.com
+      Subject: Job Opportunity - Work From Home
+      
+      Hello,
+      
+      Morgan Stanley is hiring remote positions! We are seeking part-time assistants to work from home with flexible hours and excellent compensation.
+      
+      No prior experience is required. Simply fill out the attached form and submit it to get started.
+      
+      APPLY NOW: http://morganstanley-careers.com/application
+      
+      Best regards,  
+      Morgan Stanley HR Team
+      
+      Attachment: Job_Application_Form.doc
    
 
 ---
@@ -36,6 +51,10 @@ Analyze a phishing email sample and identify suspicious traits using header anal
 - Mentioned fake attachment: `Job_Application_Form.doc`
 
 Details in: `phishing_indicators.md`
+
+## File Contents
+
+
 
 ---
 
