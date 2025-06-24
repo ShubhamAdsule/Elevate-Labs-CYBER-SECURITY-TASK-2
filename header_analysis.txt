@@ -1,0 +1,45 @@
+# Header Analysis 
+
+This analysis highlights red flags from the sample email headers used in the phishing message.
+
+---
+
+📧 Sample Header (Extracted):
+
+From: Morgan Stanley Careers <careers@morganstanley-careers.com>  
+Return-Path: scammer@cheap-fakejobs.com  
+Received: from 185.250.54.29 (unknown host, suspicious IP range)  
+Subject: Job Opportunity – Work From Home  
+To: you@example.com  
+Date: [legitimate-looking date]
+
+---
+
+🔍 Header Red Flags:
+
+1. **Return-Path Mismatch**
+   - Email says it's from `morganstanley-careers.com`
+   - But the return path shows: `scammer@cheap-fakejobs.com`
+   - 🚩 This indicates spoofing or bounce-back redirection
+
+2. **Suspicious IP Address**
+   - The sending server: `185.250.54.29`
+   - Whois lookup shows it’s not tied to Morgan Stanley or any legit provider
+
+3. **Lack of DKIM/SPF Verification**
+   - In real email headers, you'd see SPF/DKIM/DMARC pass or fail status
+   - In phishing emails, this often fails or is missing completely
+
+4. **Generic “To” Field**
+   - Sent to: `you@example.com` or `Undisclosed Recipients`
+   - No personalized greeting, which real companies use
+
+5. **No Reply-To or Signed-By**
+   - Missing metadata that most legit corporate emails include
+
+---
+
+✅ Conclusion:
+
+This header contains clear spoofing signals and weak authentication. Combined with domain mismatches and shady IPs, it’s a textbook phishing email.
+
