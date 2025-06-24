@@ -125,51 +125,62 @@ Key red flags:
 Details in: `header_analysis.txt`
 
 ## File Contents
-              Header Analysis 
-            
-            This analysis highlights red flags from the sample email headers used in the phishing message.
-            
-            ---
-            
-            📧 Sample Header (Extracted):
-            
-            From: Morgan Stanley Careers <careers@morganstanley-careers.com>  
-            Return-Path: scammer@cheap-fakejobs.com  
-            Received: from 185.250.54.29 (unknown host, suspicious IP range)  
-            Subject: Job Opportunity – Work From Home  
-            To: you@example.com  
-            Date: [legitimate-looking date]
-            
-            ---
-            
-            🔍 Header Red Flags:
-            
-            1.  Return-Path Mismatch
-               - Email says it's from `morganstanley-careers.com`
-               - But the return path shows: `scammer@cheap-fakejobs.com`
-               - 🚩 This indicates spoofing or bounce-back redirection
-            
-            2.  Suspicious IP Address
-               - The sending server: `185.250.54.29`
-               - Whois lookup shows it’s not tied to Morgan Stanley or any legit provider
-            
-            3.  Lack of DKIM/SPF Verification
-               - In real email headers, you'd see SPF/DKIM/DMARC pass or fail status
-               - In phishing emails, this often fails or is missing completely
-            
-            4.   Generic “To” Field
-               - Sent to: `you@example.com` or `Undisclosed Recipients`
-               - No personalized greeting, which real companies use
-            
-            5.   No Reply-To or Signed-By
-               - Missing metadata that most legit corporate emails include
-            
-            ---
-            
-            ✅ Conclusion:
-            
-            This header contains clear spoofing signals and weak authentication. Combined with domain mismatches and shady IPs, it’s a textbook phishing email.
-            
+                                     # Header Analysis 
+                        
+                        Note: This file focuses on **technical red flags found in the email header**.  
+                        For social engineering and content-based indicators, refer to `phishing_indicators.md`.
+                        
+                        ---
+                        
+                        📧 Sample Header (Simulated from the phishing email):
+                        
+                        From: Talent Acquisition <talent-acquisition@cloud-notification-services[.]com>  
+                        Return-Path: hr-hiring@freelance-careers.biz  
+                        Received: from 45.67.89.101 (unknown relay server)  
+                        To: john.doe@mybusiness.com  
+                        Subject: $300k+ Package Job Opportunity  
+                        Date: Tue, 15 Mar 2025 09:44:02 +0000
+                        
+                        ---
+                        
+                        ## 🔍 Technical Red Flags Identified:
+                        
+                        ### 1. **Mismatch Between Displayed Sender and Return-Path**
+                        - Displayed sender: `cloud-notification-services[.]com`
+                        - Return path: `freelance-careers.biz`
+                        - 🚩 This suggests spoofing or third-party relay usage
+                        
+                        ---
+                        
+                        ### 2. **Suspicious IP Address**
+                        - IP `45.67.89.101` is tied to an unknown or shady server
+                        - 🚩 Not associated with any reputable company or email service
+                        
+                        ---
+                        
+                        ### 3. **Missing SPF, DKIM, or DMARC Headers**
+                        - No records to verify sender authenticity
+                        - 🚩 These are normally used to protect against spoofing
+                        
+                        ---
+                        
+                        ### 4. **Generic Recipient Field**
+                        - Sent to: `john.doe@mybusiness.com`
+                        - 🚩 Could be scraped, guessed, or sent as part of a mass-targeted spam campaign
+                        
+                        ---
+                        
+                        ### 5. **Lack of Signature/Authentication Metadata**
+                        - No "signed-by", "mailed-by", or secure sender identity
+                        - 🚩 Indicates that the email likely bypassed basic verification checks
+                        
+                        ---
+                        
+                        ✅ **Conclusion:**
+                        
+                        The email header contains clear signs of manipulation and impersonation.  
+                        The mismatch of domains, suspicious server origin, and missing authentication protocols strongly indicate a phishing attempt.
+
             ---
 
 ## 📁 Files in This Repo
