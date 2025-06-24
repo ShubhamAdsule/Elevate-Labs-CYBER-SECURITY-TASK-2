@@ -46,7 +46,9 @@ Analyze a phishing email sample and identify suspicious traits using header anal
             
             Attachment: CanIPhish-Word-Attachment.docx
             
-               
+## Screenshot
+
+  
 
 ---
 
