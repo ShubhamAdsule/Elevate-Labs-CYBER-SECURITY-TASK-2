@@ -1,16 +1,22 @@
-From: Morgan Stanley Careers <careers@morganstanley-careers.com>
-To: you@example.com
-Subject: Job Opportunity - Work From Home
+From: Talent Acquisition <talent-acquisition@cloud-notification-services[.]com>
+To: john[.]doe@mybusiness[.]com
+Subject: $300k+ Package Job Opportunity
 
-Hello,
+Dear John Doe,
 
-Morgan Stanley is hiring remote positions! We are seeking part-time assistants to work from home with flexible hours and excellent compensation.
+Our company is hiring for a sales position, it's a $300K opportunity.
 
-No prior experience is required. Simply fill out the attached form and submit it to get started.
+Ideal candidate must be responsible for:
+1. Resolving sellers issues, questions, concerns with effective, clear and professional written and oral communication.
+2. Building platform and business knowledge to better serve sellers.
+3. Demonstrating excellent time-management skills and the ability to work independently.
+4. Contributing to a positive team environment.
 
-APPLY NOW: http://morganstanley-careers.com/application
+Please fill the attached form. If this offer isn't a good fit for you, feel free to refer a friend! Or someone you know is looking for an exciting new career opportunity.
 
-Best regards,  
-Morgan Stanley HR Team
+  Learn more on the attached document.
 
-Attachment: Job_Application_Form.doc
+Thanks!  
+  The Human Resources Team
+
+Attachment: CanIPhish-Word-Attachment.docx
