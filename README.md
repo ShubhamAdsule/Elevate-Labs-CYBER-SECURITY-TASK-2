@@ -168,7 +168,6 @@ Details in: `header_analysis.txt`
 | `phishing_email_sample.txt` | Raw phishing email content                              |
 | `phishing_indicators.md` | Listed suspicious traits in the email                     |
 | `header_analysis.txt`     | Header spoofing and email source analysis                 |
-| `screenshots/` *(optional)*| If added, screenshots of analysis go here                |
 
 ---
 
